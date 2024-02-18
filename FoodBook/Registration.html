@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charest="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>הרשמה</title>
+    <link rel="stylesheet" href="Registration.css" />
+    <script src="Registration.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="navIcon">
+        <a href="MyRecipes.html">
+          <img src="Pic/personal.png" alt="איזור אישי" height="60" />
+        </a>
+        <!-- TODO: להוסיף את הקישור להעלאת מתכון -->
+        <a href="">
+          <img src="Pic/upload.png" alt="העלאת מתכון" height="60" />
+        </a>
+        <a href="HomePage.html">
+          <img src="Pic/home.png" alt="דף בית" height="60" />
+        </a>
+      </div>
+      <div class="logo">
+        <img id="logoImg" src="pic/Logo.png" height="200" />
+        <br />
+        <br />
+      </div>
+    </header>
+
+    <div class="regiBlock">
+      <h2>הרשמה</h2>
+      <form id="regiform" action="." method="get">
+        <div class="inputsField">
+          <h4>מייל:</h4>
+          <input type="email" name="input_email" required />
+        </div>
+        <div class="inputsField">
+          <h4>סיסמא:</h4>
+          <input type="password" name="input_password" required />
+        </div>
+        <div class="inputsField">
+          <h4>אימות סיסמא:</h4>
+          <input type="password" name="confirm_password" required />
+        </div>
+        <div class="inputsField">
+          <h4>שם פרטי:</h4>
+          <input type="text" name="first_name" required />
+        </div>
+        <div class="inputsField">
+          <h4>שם משפחה:</h4>
+          <input type="text" name="last_name" required />
+        </div>
+        <div class="inputsField">
+          <h4>עיר:</h4>
+          <select name="city" id="city" required>
+            <option value="">בחר עיר</option>
+            <option value="אום אל-פחם">אום אל-פחם</option>
+            <option value="אופקים">אופקים</option>
+            <option value="אור יהודה">אור יהודה</option>
+            <option value="אור עקיבא">אור עקיבא</option>
+            <option value="אילת">אילת</option>
+            <option value="אלעד">אלעד</option>
+            <option value="אריאל">אריאל</option>
+            <option value="אשדוד">אשדוד</option>
+            <option value="אשקלון">אשקלון</option>
+            <option value="באקה אל-גרבייה">באקה אל-גרבייה</option>
+            <option value="באר שבע">באר שבע</option>
+            <option value="בית שאן">בית שאן</option>
+            <option value="בית שמש">בית שמש</option>
+            <option value="ביתר עילית">ביתר עילית</option>
+            <option value="בני ברק">בני ברק</option>
+            <option value="בת ים">בת ים</option>
+            <option value="גבעת שמואל">גבעת שמואל</option>
+            <option value="גבעתיים">גבעתיים</option>
+            <option value="דימונה">דימונה</option>
+            <option value="הוד השרון">הוד השרון</option>
+            <option value="הרצליה">הרצליה</option>
+            <option value="חדרה">חדרה</option>
+            <option value="חולון">חולון</option>
+            <option value="חיפה">חיפה</option>
+            <option value="טבריה">טבריה</option>
+            <option value="טייבה">טייבה</option>
+            <option value="טירה">טירה</option>
+            <option value="טירת כרמל">טירת כרמל</option>
+            <option value="טמרה">טמרה</option>
+            <option value="יבנה">יבנה</option>
+            <option value="יהוד-מונוסון">יהוד-מונוסון</option>
+            <option value="יקנעם עילית">יקנעם עילית</option>
+            <option value="ירושלים">ירושלים</option>
+            <option value="כפר יונה">כפר יונה</option>
+            <option value="כפר סבא">כפר סבא</option>
+            <option value="כפר קאסם">כפר קאסם</option>
+            <option value="כרמיאל">כרמיאל</option>
+            <option value="לוד">לוד</option>
+            <option value="מגדל העמק">מגדל העמק</option>
+            <option value="מודיעין-מכבים-רעות">מודיעין-מכבים-רעות</option>
+            <option value="מודיעין עילית">מודיעין עילית</option>
+            <option value="מעלה אדומים">מעלה אדומים</option>
+            <option value="מעלות-תרשיחא">מעלות-תרשיחא</option>
+            <option value="נהריה">נהריה</option>
+            <option value="נוף הגליל">נוף הגליל</option>
+            <option value="נס ציונה">נס ציונה</option>
+            <option value="נצרת">נצרת</option>
+            <option value="נשר">נשר</option>
+            <option value="נתיבות">נתיבות</option>
+            <option value="נתניה">נתניה</option>
+          </select>
+        </div>
+        <div class="inputsField">
+          <h4>תאריך לידה:</h4>
+          <input
+            type="date"
+            name="birthdate"
+            id="birthdate"
+            max="2006-01-01"
+            required
+          />
+        </div>
+        <br />
+        <br />
+        <input class="regiButton" type="submit" value="הרשם" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+body{
+    background-color: #FFF9E4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2{
+    color: #FFF9E4;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    color: #FFF9E4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.regiBlock{
+    background-color: #E38B29;
+    border-radius: 20px;
+    padding: 25px 70px;
+    display: inline-block;
+}
+
+.regiButton{
+    background-color: #FFDA77;
+    color: #E38B29;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border-color: #FFDA77;
+}
+
+.logo{
+    text-align: center;    
+    margin:0 auto;
+}
+
+
+.navIcon{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    
+}
+    
+#logoImg {
+    animation: my-animation 2s ease-in-out infinite;
+    animation-iteration-count:1;
+  }
+  
+  @keyframes my-animation {
+    0% {
+      opacity: 0;
+      transform: rotate(-30deg);
+    }
+    33.333% {
+      opacity: 0.5;
+      transform: rotate(0deg);
+    }
+   66.666% {
+      opacity: 1;
+      transform: rotate(30deg);
+    }
+    100% {
+      opacity: 1.5;
+      transform: rotate(0deg);
+    }
+  }  
+  
+.inputsField{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
