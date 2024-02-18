@@ -1,0 +1,72 @@
+body{
+    background-color: #FFF9E4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2{
+    color: #FFF9E4;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    color: #FFF9E4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.LogInBlock{
+    background-color: #E38B29;
+    border-radius: 20px;
+    align-items: center;
+    padding: 25px 70px;
+}
+
+.loginB {
+    background-color: #FFDA77;
+    color: #E38B29;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border-color: #FFDA77;
+    padding: 5px 11px;
+}
+
+.logo{
+    text-align: center;    
+    margin:0 auto;
+}
+
+.navIcon{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    
+}
+
+.InputField{
+    display: flex; 
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+#logo{
+    height: 200px;
+}
+
+@media (max-width: 600px){
+    .LogInBlock{
+        background-color: #E38B29;
+        border-radius: 20px;
+        align-items: center;
+        padding: 25px 25px;
+    }
+
+    #logo{
+        height: 100px;
+    }
+}
