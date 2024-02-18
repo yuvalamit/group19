@@ -9,45 +9,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>התחברות</title>
     <link rel="stylesheet" href="LogInPage.css" />
+    <script src="LogInPage.js"></script>
   </head>
-<body>
-        <header>
-          <div class="navIcon">
-            <a href="">
-              <img src="Pic/personal.png" alt="איזור אישי" height="60" />
-            </a>
-            <a href="">
-              <img src="Pic/upload.png" alt="העלאת מתכון" height="60" />
-            </a>
-            <a href="">
-              <img src="Pic/home.png" alt="דף בית" height="60" />
-            </a>
-          </div>
-          <div class="logo">
-            <img id="logo" src="pic/Logo.png"/>
-          </div>
-        </header>
-    <div class="LogInBlock" style="display: inline-block;">
-    <h2>דף התחברות</h2>
-    <form action="" method="get">
-        <div class="InputField" >
-            <h4>מייל:</h4>
-            <input id="email" type="email" name="email"
-            placeholder="הכנס מייל" required>
+  <body>
+    <header>
+      <div class="navIcon">
+        <a href="">
+          <img src="Pic/personal.png" alt="איזור אישי" height="60" />
+        </a>
+        <a href="">
+          <img src="Pic/upload.png" alt="העלאת מתכון" height="60" />
+        </a>
+        <a href="">
+          <img src="Pic/home.png" alt="דף בית" height="60" />
+        </a>
+      </div>
+      <div class="logo">
+        <img id="logoImg" src="pic/Logo.png" />
+      </div>
+    </header>
+    <div class="LogInBlock" style="display: inline-block">
+      <h2>דף התחברות</h2>
+      <form action="" method="get">
+        <div class="InputField">
+          <h4>מייל:</h4>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="הכנס מייל"
+            required
+          />
         </div>
         <div class="InputField">
-        <h4>סיסמא:</h4>
-        <input id="password" type="password" name="password"
-        placeholder="הכנס סיסמא" required>
-    </div>
+          <h4>סיסמא:</h4>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="הכנס סיסמא"
+            required
+          />
+        </div>
         <h4>
-            עדיין אין לך משתמש? לחץ
-            <a href="SingIn.html">כאן</a>
-        </h4>    
-        <br>
+          עדיין אין לך משתמש? לחץ
+          <a href="SingIn.html">כאן</a>
+        </h4>
+        <br />
         <button class="loginB" type="submit">התחבר</button>
-    </form>
-    <script src="LogInPage.js"></script>
-</div>
-</body>
+      </form>
+      <script src="LogInPage.js"></script>
+    </div>
+  </body>
 </html>

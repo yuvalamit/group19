@@ -54,9 +54,6 @@ h4{
 
 }
 
-#logo{
-    height: 200px;
-}
 
 @media (max-width: 600px){
     .LogInBlock{
@@ -66,7 +63,35 @@ h4{
         padding: 25px 25px;
     }
 
-    #logo{
+    #logoImg{
         height: 100px;
+        animation: my-animation 2s ease-in-out infinite;
+        animation-iteration-count:1;
     }
 }
+
+
+#logoImg {
+    height: 200px;
+    animation: my-animation 2s ease-in-out infinite;
+    animation-iteration-count:1;
+  }
+  
+  @keyframes my-animation {
+    0% {
+      opacity: 0;
+      transform: rotate(-30deg);
+    }
+    33.333% {
+      opacity: 0.5;
+      transform: rotate(0deg);
+    }
+   66.666% {
+      opacity: 1;
+      transform: rotate(30deg);
+    }
+    100% {
+      opacity: 1.5;
+      transform: rotate(0deg);
+    }
+  }  
