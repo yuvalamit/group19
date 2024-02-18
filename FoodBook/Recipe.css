@@ -1,0 +1,148 @@
+body{
+    background-color: #FFF9E4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nameRecipe{
+    color: #FFF9E4;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color: #E38B29;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    font-size: 200%;
+}
+
+    
+#logoImg {
+    animation: my-animation 2s ease-in-out infinite;
+    animation-iteration-count:1;
+  }
+  
+  @keyframes my-animation {
+    0% {
+      opacity: 0;
+      transform: rotate(-30deg);
+    }
+    33.333% {
+      opacity: 0.5;
+      transform: rotate(0deg);
+    }
+   66.666% {
+      opacity: 1;
+      transform: rotate(30deg);
+    }
+    100% {
+      opacity: 1.5;
+      transform: rotate(0deg);
+    }
+  }  
+
+p{
+    color: #E38B29;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    text-align: right;
+    margin: 5px;
+}
+
+h4{
+    color: #E38B29;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin: 5px;
+}
+
+.detailsBlock{
+    display: flex;
+    flex-direction: row;
+    background-color: #E38B29;
+    border-radius: 20px;
+    padding: 25px 0px;
+    text-align: right;
+    width: 35%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.commentButton{
+    background-color: #E38B29;
+    color: #FFDA77;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border-color: #E38B29;
+    margin-right: 10px;
+}
+
+.commentBlock{
+    display: inline-block;
+    background-color: #FFDA77;
+    border-radius: 20px;
+    padding: 20px 20px;
+    text-align: right;
+}
+
+.inputComment{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+.comment{
+    color: #E38B29;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.detailHead{
+    color:#FFF9E4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin: 5px;
+}
+
+.nameRecipe{
+    color: #FFF9E4;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+}
+
+.logo{
+    text-align: center;    
+    margin:0 auto;
+}
+
+
+.navIcon{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    
+}
+
+.components{
+    display: inline-block;
+    text-align: right;
+    width: 1000px;
+    padding: 25px 50px;
+}
+
+.method{
+    display: inline-block;
+    padding: 25px 50px;
+    text-align: right;
+    width: 1000px;
+}
+
+

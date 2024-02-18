@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charest="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>מתכון</title>
+    <link rel="stylesheet" href="Recipe.css" />
+    <script src="Recipe.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="navIcon">
+        <a href="MyRecipes.html">
+          <img src="Pic/personal.png" alt="איזור אישי" height="60" />
+        </a>
+        <!-- TODO: להוסיף את הקישור להעלאת מתכון -->
+        <a href="">
+          <img src="Pic/upload.png" alt="העלאת מתכון" height="60" />
+        </a>
+        <a href="HomePage.html">
+          <img src="Pic/home.png" alt="דף בית" height="60" />
+        </a>
+      </div>
+      <div class="logo">
+        <img id="logoImg" src="pic/Logo.png" height="200" />
+        <br />
+        <br />
+      </div>
+    </header>
+    <div class="detailsBlock">
+      <div class="headDetails">
+        <h2 class="nameRecipe">סלט חסה תפוחים</h2>
+        <h4 class="detailHead">קושי: קל</h4>
+        <br />
+        <h4 class="detailHead">משך זמן הכנה: 15 דקות</h4>
+      </div>
+      <img src="Pic/salatTapoh.jpeg" alt="סלט תפוחים" height="120" />
+    </div>
+
+    <br />
+
+    <div class="components">
+      <h2>רשימת מרכיבים:</h2>
+      <p class="componentsFromDB"></p>
+    </div>
+
+    <div class="method">
+      <h2>אופן ההכנה:</h2>
+      <p>
+        שמים את החסות, התפוחים, האגוזים והחמוציות בקערה גדולה ומערבבים קלות
+        <br />
+        שמים את כל שאר המרכיבים בצנצנת ומשקשקים אותה כך שהכל יתערבב היטב
+        <br />
+        מוזגים את הרוטב מהצנצנת בקערה, מערבבים הכל יחד ומגישים.
+      </p>
+    </div>
+
+    <br />
+
+    <div class="commentBlock">
+      <div class="commentsList">
+        <h2 id="nameRecipe">תגובות:</h2>
+        <br />
+        <div class="commentRow">
+          <h4>יהודה לוי:</h4>
+          <h4>מתכון מעולה! הכנתי לערב ראש השנה ויצא מושלם.</h4>
+          <br />
+        </div>
+
+        <div class="commentRow">
+          <h4>נינט טייב:</h4>
+          <h4>תודה רבה על המתכון. קיבלתי המון מחמאות.</h4>
+          <br />
+        </div>
+      </div>
+      <br />
+      <form id="commentForm" action="." method="get">
+        <div class="inputComment">
+          <h4 class="comment">אני:</h4>
+          <input
+            type="text"
+            name="input_comment"
+            placeholder="הכנס את תגובתך"
+          />
+          <input class="commentButton" type="submit" value="הוסף" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

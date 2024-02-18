@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charest="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>דף הבית</title>
+    <link rel="stylesheet" href="HomePage.css" />
+    <script src="HomePage.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navIcon">
+        <a href="./MyRecipes.html">
+          <img src="Pic/personal.png" alt="איזור אישי" height="60" />
+        </a>
+        <a href="">
+          <!-- TODO: להוסיף את הקישור להעלאת מתכון -->
+          <img src="Pic/upload.png" alt="העלאת מתכון" height="60" />
+        </a>
+        <a href="./HomePage.html">
+          <img src="Pic/home.png" alt="דף בית" height="60" />
+        </a>
+      </div>
+      <div class="logo">
+        <img id="logoImg" src="pic/Logo.png" height="200" />
+        <br />
+        <br />
+      </div>
+    </header>
+
+    <div class="category">
+      <button class="categoryBtn" data-category="diary">
+        <label>חלבי</label>
+        <img src="Pic/חלבי.png" alt="חלבי" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="meat">
+        בשרי
+        <img src="Pic/בשר.png" alt="בשרי" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="pastries">
+        מאפים
+        <img src="Pic/מאפים.png" alt="מאפים" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="desserts">
+        קינוחים
+        <img src="Pic/קינוחים.png" alt="קינוחים" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="vegan">
+        טבעוני
+        <img src="Pic/טבעוני.png" alt="טבעוני" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="vegetarian">
+        צמחוני
+        <img src="Pic/צמחוני.png" alt="צמחוני" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="salads">
+        סלטים
+        <img src="Pic/סלטים.png" alt="סלטים" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="asian">
+        אסייתי
+        <img src="Pic/אסייתי.png" alt="אסייתי" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="chiken">
+        עוף
+        <img src="Pic/עוף.png" alt="עוף" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="soup">
+        מרקים
+        <img src="Pic/מרקים.png" alt="מרקים" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="Sandwiches">
+        כריכים
+        <img src="Pic/כריכים.png" alt="כריכים" height="40" />
+      </button>
+      <button class="categoryBtn" data-category="Extras">
+        תוספות
+        <img src="Pic/תוספות.png" alt="תוספות" height="40" />
+      </button>
+    </div>
+    <section>
+      <h2>מומלצים</h2>
+      <div class="mainReco">
+        <div class="reco">
+          <h3>רולדה</h3>
+          <a href="Recipe.html">
+            <img src="Pic/rolada.jpeg" alt="רולדה" height="250" />
+          </a>
+          <h4>בינוני | 70 דקות</h4>
+        </div>
+        <div class="reco">
+          <h3>סלט חסה תפוחים</h3>
+          <a href="Recipe.html">
+            <img src="Pic/salatTapoh.jpeg" alt="סלט תפוחים" height="250" />
+          </a>
+          <h4>קל | 15 דקות</h4>
+        </div>
+        <div class="reco">
+          <h3>פיצה מרגריטה</h3>
+          <a href="Recipe.html">
+            <img src="Pic/Pizza.jpeg" alt="פיצה" height="250" />
+          </a>
+          <h4>בינוני | 90 דקות</h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
