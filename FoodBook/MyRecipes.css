@@ -52,7 +52,7 @@ body{
     align-items: flex-start;*/
    }
   
-   .reco{
+   .recipe{
     display: inline-block;
     background-color: #E38B29;
     padding: 10px;
@@ -60,7 +60,7 @@ body{
     margin: 0 1% 0 1%;
 }
 
-.reco h3{
+.recipe h3{
     color: #FFF9E4;
     font-size: 25px;
     text-align: center;
@@ -69,7 +69,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.reco h4{
+.recipe h4{
      color: #FFF9E4;
     text-align: center;
     margin: 10px;
