@@ -1,0 +1,88 @@
+body{
+    background-color: #FFF9E4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2{
+    color: #E38B29;
+    font-weight: bold;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    color: #FFF9E4;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4{
+    color: #FFF9E4;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo{
+    height: 200px;
+}
+
+.logo{
+    text-align: center;    
+    margin:0 auto;
+}
+
+.navIcon{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+
+.mainReco{
+    text-align: center; 
+    margin:0 auto;
+}
+   
+.reco{
+    display: inline-block;
+    background-color: #E38B29;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 1% 0 1%;
+}
+
+.photos{
+    height: 220px;
+}
+
+@media (max-width: 1000px) and (min-width: 600px){
+    .photos{
+        height: 180px;
+    }
+    .reco{
+        padding: 6px;
+        margin: 0;
+    }
+    #logo{
+        height: 100px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .photos{
+        height: 140px;
+    }
+    .reco{
+        padding: 6px;
+        margin: 0;
+    }
+    #logo{
+        height: 100px;
+    }
+}
