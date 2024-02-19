@@ -88,4 +88,37 @@ body{
        flex-direction: column;
        align-items: flex-start;*/
    }
+
+   @media (max-width: 1000px) and (min-width: 600px){
+    .recipeImage{
+        height: 160px;
+    }
+    .recipe{
+        padding: 6px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+    .recipeImage{
+        height: 140px;
+    }
+    .recipe{
+        padding: 6px;
+    }
+    #logoImg{
+        animation: my-animation 2s ease-in-out infinite;
+        animation-iteration-count:1;
+        height: 100px;
+    }
+    h2{
+        font-size: 20px;
+        margin: 10px;
+    }
+    h4{
+      font-size: 25px;
+      margin: 10px;
+    }/*i need to make the photos smaller*/
+}
    

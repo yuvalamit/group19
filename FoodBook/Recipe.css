@@ -65,7 +65,7 @@ h4{
     flex-direction: row;
     background-color: #E38B29;
     border-radius: 20px;
-    padding: 25px 0px;
+    padding: 25px 25px;
     text-align: right;
     width: 35%;
     justify-content: space-evenly;
@@ -135,14 +135,52 @@ h4{
     display: inline-block;
     text-align: right;
     width: 1000px;
-    padding: 25px 50px;
+    padding: 5px 50px;
 }
 
 .method{
     display: inline-block;
-    padding: 25px 50px;
+    padding: 5px 50px;
     text-align: right;
     width: 1000px;
 }
 
+@media (max-width: 1100px) and (min-width:700px){
+    .method{
+        width: 80%;
+    }
+    .components{
+        width: 80%;
+    }
+}
 
+@media (max-width: 700px){
+    h2{
+        font-size: 25px;
+    }
+    #componentsList{
+        font-size: 17px;
+    }
+    #process{
+        font-size: 17px;
+    }
+    h4{
+        font-size: 17px;
+    }
+    .detailsBlock{
+        width: 60%;
+    }
+    #logoImg{
+        height: 100px;
+    }
+    .method{
+        width: 80%;
+    }
+    .components{
+        width: 80%;
+    }
+    .commentBlock{
+        width: 80%;
+        padding: 10px 10px;
+    }
+}
