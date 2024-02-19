@@ -102,3 +102,12 @@ body{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
+    @media (max-width: 600px) {
+      h2{
+        font-size: 25px;
+      }
+      
+      #logoImg{
+        height: 100px;
+      }
+    }

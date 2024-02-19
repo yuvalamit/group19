@@ -42,6 +42,7 @@ select{
     border-radius: 20px;
     align-items: center;
     padding: 25px 70px;
+    display: inline-block;
 }
 
 .loginB {
@@ -86,5 +87,6 @@ select{
         border-radius: 20px;
         align-items: center;
         padding: 25px 25px;
+        display: inline-block;
     }
 }
