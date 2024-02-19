@@ -33,7 +33,6 @@ body{
    margin:0 auto;
    }
    
-   
    .navIcon{
     display: flex;
     flex-direction: row;
@@ -46,7 +45,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ee7215;
     text-align: right;
-    margin: 40px;
+    margin: 30px;
     /*display: flex;
     flex-direction: column;
     align-items: flex-start;*/
@@ -81,7 +80,7 @@ body{
        color: #ee7215;
        text-align: right;
        font-size: 25px;
-       margin: 40px;
+       margin: 30px;
        font-weight: bold;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       /* display: flex;
@@ -96,9 +95,7 @@ body{
     .recipe{
         padding: 6px;
     }
-
 }
-
 
 @media (max-width: 600px){
     .recipeImage{
@@ -113,11 +110,11 @@ body{
         height: 100px;
     }
     h2{
-        font-size: 20px;
+        font-size: 25px;
         margin: 10px;
     }
     h4{
-      font-size: 25px;
+      font-size: 20px;
       margin: 10px;
     }/*i need to make the photos smaller*/
 }
