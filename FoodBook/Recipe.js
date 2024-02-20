@@ -11,15 +11,31 @@ window.onload = function () {
     else {
       addComment(
         comment,
-        `${usersList[0].firstName} ${usersList[0].lastName}:`
+        `${usersList[0].firstName} ${usersList[0].lastName}:`,
+        form
       );
-      alert("תגובתך הוספה בהצלחה");
-      const input = document.getElementsByName("input_comment")[0];
+
+      const input = document.getElementsByName("input_comment");
       input.value = ""; // clear the input row
     }
 
     return false;
   });
+};
+
+const addCommentToDB = (commUserName, form) => {
+  usersList[0].recipes[0].comment.push({
+    userName: commUserName,
+    contentComment: form.elements["input_comment"].value,
+  });
+  recipes[0].Comment.push({
+    userName: commUserName,
+    contentComment: form.elements["input_comment"].value,
+  });
+  console.log(usersList[0].recipes[0]);
+  console.log(recipes[0].Comment);
+
+  alert("תגובתך הוספה בהצלחה");
 };
 
 function showComponentsList() {
@@ -38,7 +54,6 @@ function showProcess() {
 function showComments() {
   const comments = usersList[0].recipes[0].comment;
   comments.forEach((comment) => {
-    console.log(comment);
     createCommentRow(comment);
   });
 }
@@ -53,11 +68,10 @@ const createCommentRow = (comment) => {
   commentRowDiv.appendChild(userComment);
 
   const commentsList1 = document.getElementById("nameRecipe");
-  console.log(commentsList1);
   commentsList1.appendChild(commentRowDiv);
 };
 
-function addComment(comment, user) {
+function addComment(comment, user, form) {
   //func that add comment to the comments list
 
   const commentRow = document.createElement("div");
@@ -77,4 +91,6 @@ function addComment(comment, user) {
 
   const parentDiv = document.querySelector("#commentsList");
   parentDiv.appendChild(commentRow);
+
+  addCommentToDB(user, form);
 }
