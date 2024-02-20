@@ -9,7 +9,7 @@ window.onload = function () {
 
     if (email === "adi@gmail.com" && password === "1212") {
       alert("התחברת בהצלחה!");
-      window.location.href = "HomePage.html";
+      window.location.href = "MyRecipes.html";
     } else {
       alert("שם משתמש או סיסמה שגויים!");
     }

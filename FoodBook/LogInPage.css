@@ -17,6 +17,12 @@ h4{
     margin: 5px;
 }
 
+#logoImg {
+    height: 200px;
+    animation: my-animation 2s ease-in-out infinite;
+    animation-iteration-count:1;
+  }
+  
 .LogInBlock{
     background-color: #E38B29;
     border-radius: 20px;
@@ -71,11 +77,6 @@ h4{
 }
 
 
-#logoImg {
-    height: 200px;
-    animation: my-animation 2s ease-in-out infinite;
-    animation-iteration-count:1;
-  }
   
   @keyframes my-animation {
     0% {

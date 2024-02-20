@@ -75,6 +75,6 @@ function addComment(comment, user) {
   commentRow.appendChild(commentText);
   commentRow.appendChild(br);
 
-  const parentDiv = document.querySelector(".commentsList");
+  const parentDiv = document.querySelector("#commentsList");
   parentDiv.appendChild(commentRow);
 }

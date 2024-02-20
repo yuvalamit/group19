@@ -103,8 +103,6 @@ h4{
         padding: 6px;
     }
     #logoImg{
-        animation: my-animation 2s ease-in-out infinite;
-        animation-iteration-count:1;
         height: 100px;
     }
     h2{
