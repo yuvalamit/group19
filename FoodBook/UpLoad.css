@@ -37,7 +37,7 @@ select{
     width: 178px;
 }
 
-.LogInBlock{
+.UpLoadBlock{
     background-color: #E38B29;
     border-radius: 20px;
     align-items: center;
@@ -72,21 +72,15 @@ select{
 }
 
 @media (max-width: 600px){
-    textarea{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        height: 100px;
-        width: 178px;
-    }
-
     #logo{
         height: 100px;
     }
 
-    .LogInBlock{
+    .UpLoadBlock{
         background-color: #E38B29;
         border-radius: 20px;
         align-items: center;
-        padding: 25px 25px;
+        padding: 25px;
         display: inline-block;
     }
 }
