@@ -15,7 +15,7 @@ FoodBook is built using the following technologies:
 
 ## Functionality
 
-The database is currently represented by dummy data stored in the [DataBase.js](DataBase.js) file.
+The database is currently represented by dummy data stored in the [DataBase.js](FoodBook/DataBase.js) file.
 
 Key features include:
 
