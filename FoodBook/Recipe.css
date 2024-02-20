@@ -150,6 +150,9 @@ h4{
     .components{
         width: 80%;
     }
+    .detailsBlock{
+        width: 50%;
+    }
 }
 
 @media (max-width: 600px){
