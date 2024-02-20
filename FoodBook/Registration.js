@@ -26,11 +26,24 @@ window.onload = function () {
     if (errors.length > 1) {
       alert(errors.join("\n"));
     } else {
+      addUserToDB();
       alert("המשתמש נוסף בהצלחה");
     }
 
     return false;
   });
+
+  const addUserToDB = () => {
+    usersList.push({
+      email: form.elements["input_email"].value,
+      firstName: form.elements["first_name"].value,
+      lastName: form.elements["last_name"].value,
+      password: form.elements["input_password"].value,
+      city: form.elements["city"].value,
+      birthDate: form.elements["birthdate"].value,
+      recipes: [],
+    });
+  };
 
   const checkIfMailExists = (mail) => {
     const emailsList = usersList.map((user) => user.email);
