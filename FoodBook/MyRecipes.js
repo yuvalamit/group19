@@ -29,7 +29,7 @@ const createRecipeCube = (recipe) => {
   const image = document.createElement("img");
   image.src = recipe.image;
   image.alt = recipe.name;
-  image.height = "250";
+  image.classList.add("recipeImage");
 
   imageLink.appendChild(image);
 
